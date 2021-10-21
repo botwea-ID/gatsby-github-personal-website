@@ -3,7 +3,7 @@ module.exports = {
     style: `light`,
     layout: `sidebar`,
     social: {
-      dev: `https://dev.to/thakkaryash94`,
+      dev: `https://api.frangky.me`,
       twitter: `https://twitter.com/mrviyet`,
       linkedIn: `https://www.linkedin.com/in/thakkaryash94`
     }
@@ -101,7 +101,7 @@ module.exports = {
         fieldName: 'github',
         url: 'https://api.github.com/graphql',
         headers: {
-          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+          Authorization: `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`,
         }
       },
     },
